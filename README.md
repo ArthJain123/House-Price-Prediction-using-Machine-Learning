@@ -1,63 +1,96 @@
-# 🚧 House Price Prediction using Machine Learning
+# 🏡 House Price Prediction using Machine Learning
 
-## Project Status
+## Overview
 
-**Work in Progress**
+This project predicts house prices using the Ames Housing dataset using Machine Learning. It demonstrates an end-to-end machine learning workflow, including data cleaning, exploratory data analysis (EDA), feature encoding, model training, model evaluation, and feature importance analysis.
 
-## 📌 Project Overview
+The project compares three regression algorithms to determine the best-performing model for predicting house prices.
 
-This project is created by me to predict house prices based on various property features using Machine Learning. It follows the complete Machine Learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation using regression algorithms.
+## Dataset
 
-## 🎯 Objectives
+- Dataset: Ames Housing Dataset
+- Target Variable: SalePrice
 
-* Clean and preprocess the housing dataset.
-* Perform Exploratory Data Analysis (EDA).
-* Engineer useful features for better predictions.
-* Train and evaluate regression models.
-* Compare model performance using regression evaluation metrics.
+## Project Workflow
 
-## 🛠️ Technologies Used
+- Data Loading
+- Data Exploration
+- Data Cleaning
+- Missing Value Handling
+- Duplicate Value Checking
+- Exploratory Data Analysis (EDA)
+- Outlier Detection using IQR
+- Feature Encoding using One-Hot Encoding
+- Correlation Analysis
+- Train-Test Split
+- Model Training
+- Model Evaluation
+- Model Comparison
+- Feature Importance Analysis
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
-* Jupyter Notebook
+## Machine Learning Models
 
-## 📊 Machine Learning Workflow
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Train-Test Split
-6. Model Training
-7. Model Evaluation
-8. Prediction
+## Evaluation Metrics
 
-## 📈 Evaluation Metrics
+- R² Score
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
 
-* R² Score
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
+## Key Findings
 
-## 📁 Project Structure
+- House prices are right-skewed with a few expensive outliers.
+- Higher-quality houses generally have higher sale prices.
+- Ground Living Area and Garage Area show a positive relationship with house prices.
+- Random Forest achieved the best predictive performance among the three models.
+- Feature importance analysis identified the most influential features affecting house prices.
 
-* Dataset
-* Jupyter Notebook
-* README.md
+## Technologies Used
 
-## 🚀 Future Improvements
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-* Hyperparameter Tuning
-* Feature Selection
-* Model Comparison
-* Model Deployment
+## Project Structure
 
-## 👨‍💻 Author
+House-Price-Prediction/
+│
+├── data/
+│   └── Ames_Housing_Project.csv
+├── House_Price_Prediction.ipynb
+├── requirements.txt
+└── README.md
 
-**Arth Jain**
+## How to Run
 
-Aspiring Data Scientist | Python | SQL | Pandas | NumPy | Data Analysis | Machine Learning Enthusiast
+1. Clone this repository.
+2. Install the required libraries using:
+
+   pip install -r requirements.txt
+
+3. Open the Jupyter Notebook.
+4. Run all cells to reproduce the analysis and model results.
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Feature Engineering
+- Regression Analysis
+- Machine Learning
+- Model Evaluation
+- Model Comparison
+- Feature Importance Analysis
+
+## Author
+
+Arth Jain
+
+Aspiring Data Scientist | Python | SQL | Machine Learning | Data Analysis
